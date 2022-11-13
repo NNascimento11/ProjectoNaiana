@@ -1,0 +1,157 @@
+/*-------geral----------*/
+.body{
+  margin: 200;
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+
+/*-------estilos Tipograficos--------------*/
+.TITULO1{
+  position: relative;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 30pt;
+  color: blue;
+  text-align: center;
+}
+.TITULO2{
+  position: relative;
+  font-family:  'Source Code Pro', monospace;;
+  font-size: 30pt;
+  color: red;
+  text-align: center;
+}
+
+.sintese{
+  font-family:  'Source Code Pro', monospace;
+  font-size: 20pt;
+  color: red;
+  margin: auto;
+  width: 600px;
+  margin-top: auto;
+  text-align: center;
+  font-weight: 700;
+
+}
+.machine{
+  color: red;
+  font-weight: 900;
+}
+
+.human {
+  color: blue;
+  font-weight: 900;
+}
+
+.legenda {
+  font-size: 10pt;
+  color: red;
+  font-family:  'Source Code Pro', monospace;
+  font-weight: 900;
+  margin: auto;
+  width: 400px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+/* -----Index-----*/
+
+.squarepag1{
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: blue;
+  margin-bottom: 20px;
+  display: block;   
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.squarepag1 {
+  animation-name: backgroundColorPalette;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function:linear; 
+  /* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: blue;
+  }
+  50% {
+    background: red;
+  }
+  75% {
+    background: white;
+  }
+  100% {
+    background: blue;
+  }
+}
+
+.popup-container {
+  position: relative;
+  width: fit-content;
+}
+.sintese{
+  font-family:  'Source Code Pro', monospace;
+  font-size: 20pt;
+  color: red;
+  margin: auto;
+  width: 600px;
+  margin-top: auto;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+.legenda {
+  font-size: 10pt;
+  font-family:  'Source Code Pro', monospace;
+  margin: auto;
+  width: 400px;
+  margin-top: 10px;
+  text-align: center;
+  display: none;
+
+}
+.popup-container:hover .legenda {
+  display: block;
+  margin: auto;
+  width: 600px;
+  margin-top: auto;
+  text-align: center;
+}
+
+
+.popup-container {
+  position: relative;
+ margin: 0 auto;
+ float: none;
+  
+}
+
+.popup-detail {
+  position: absolute;
+  top: 200px;
+  left: 0%;
+  display: none;
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+
+.popup-container:hover .popup-detail {
+  display: block;
+}
+
+
+
+
+
+
+
+
